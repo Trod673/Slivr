@@ -2,6 +2,9 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body{
+    width: 100%;
+}
 
 .navbar ul li {
     list-style-type: none;
@@ -13,7 +16,6 @@
     position: relative;
     margin: auto 0;
     height: 30px;
-    padding: 0 5%;
 }
 
 .navbar {
@@ -87,8 +89,7 @@ h4 {
     position: relative;
     margin: auto;
     height: 30px;
-
-    padding: 0 5%;
+    width: fit-content;
 }
 
 .footbar {
@@ -99,5 +100,6 @@ h4 {
     font-weight: 700;
     bottom: 0;
     position: absolute;
-    width: 1183px;
+    width: 100%;
 }
+
