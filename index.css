@@ -15,10 +15,11 @@ body{
     
 .navbar ul {
     position: relative;
-    margin: auto 0;
+    margin: auto;
     height: 30px;
-    width: 100%;
+    width: 90%;
     padding-inline-start: 0;
+    padding-left: 20px;
 }
 
 .navbar {
