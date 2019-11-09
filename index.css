@@ -94,6 +94,8 @@ h4 {
     margin: auto;
     height: 30px;
     width: fit-content;
+
+    padding-inline-start: 0;
 }
 
 .footbar {
