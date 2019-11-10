@@ -45,6 +45,7 @@ Dark:   #293a99
     color: ghostwhite;
     font-weight: 700;
     width: 100%;
+    position: fixed;
 }
 
 .fright li{
