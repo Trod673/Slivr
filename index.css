@@ -131,7 +131,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 
 .content img{
-    width: 320px;
+    width: 280px;
     display: block;
     position: relative;
     margin: 20px auto;
