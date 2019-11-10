@@ -46,22 +46,14 @@ Dark:   #293a99
     font-weight: 700;
     width: 100%;
     position: fixed;
-    z-index: 100;
+    z-index: 90;
 }
 
 .fright li{
     float: right;
 }
 
-.fright a{
-    background-color: #fff23b; 
-    border: none;
-    border-radius: 3px;
-    color: #293a99;
-    margin-top: -3px; 
-    padding: 3px 6px;
-    display: inline-block;
-}
+
 
 header img{
     height: 36px;
@@ -122,12 +114,11 @@ and (-webkit-min-device-pixel-ratio: 2){
 /* Content */
 
 .content{
-    margin: auto;
+    margin: auto auto 50px auto;
     background-color: #3baaff;
     height: 50%;
     color: white;
     padding-top: 45px;
-    margin-bottom: 75px;
 }
 
 .content img{
@@ -159,6 +150,16 @@ p {
     text-align: center;
 }
 
+.insideLeft i {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 4px dotted #293a99;
+    width: 50%;
+    
+}
+
 
 
 .insideRight ul li {
@@ -173,6 +174,12 @@ p {
     color: #742ecf;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 .container{
     display: flex;
@@ -180,6 +187,8 @@ p {
     justify-content: space-around;
     height: 500px;
     align-items: center;
+    position: relative;
+    bottom: 50px;
 }
 
 @media only screen and (max-width: 780px), only screen 
@@ -197,10 +206,14 @@ and (-webkit-min-device-pixel-ratio: 2){
 
     .insideLeft{
         height: 50%;
+        position: relative;
+        top: 50px;
     }
 
     .insideRight{
         height: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
 }
@@ -209,6 +222,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 .insideRight ul {
     margin: auto;
     width: 80%;
+    position: relative;
+    top: 50px;
 }
 
 .insideRight, .insideLeft{
@@ -216,11 +231,6 @@ and (-webkit-min-device-pixel-ratio: 2){
     justify-content: center;
 }
 
-.insideLeft h4{
-    margin: auto;
-    width: 60%;
-    justify-content: center;
-}
 
 
 
