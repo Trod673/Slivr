@@ -62,7 +62,15 @@ header img{
     float: left;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (max-width: 480px){
+=======
+@media only screen and (max-width: 780px), only screen 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3), only screen 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 2){
+>>>>>>> Stashed changes
     .navbar{
         display: none;
     }
@@ -193,7 +201,11 @@ p {
     align-items: center;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 780px), only screen 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3), only screen 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 2){
     .container{
         flex-direction: column;
         justify-content: space-around;
