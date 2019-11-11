@@ -132,6 +132,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin: 40px auto;
     border-radius: 30px;
     padding-top: 20px;
+    min-width: 400px;
 }
 
 form{
