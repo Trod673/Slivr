@@ -85,6 +85,8 @@ and (-webkit-min-device-pixel-ratio: 2){
         font-weight: 700;
         width: 100%;
         display: block;
+        position: fixed;
+        z-index: 90;
     }
 
     .mobileNavbar ul li {

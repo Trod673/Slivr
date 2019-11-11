@@ -85,6 +85,8 @@ and (-webkit-min-device-pixel-ratio: 2){
         font-weight: 700;
         width: 100%;
         display: block;
+        position: fixed;
+        z-index: 90;
     }
 
     .mobileNavbar ul li {
@@ -162,7 +164,6 @@ input[type="submit"]{
 
 .field{
     padding-bottom: 5px;
-    width: 50%;
     display: inline;
 }
 
